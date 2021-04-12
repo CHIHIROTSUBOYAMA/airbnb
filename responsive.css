@@ -1,0 +1,426 @@
+@media screen and (max-width: 1127px) {
+  .pc {
+    display: none; }
+
+  .phone {
+    display: none; }
+
+  .pc-1 {
+    display: none; }
+
+  .tablet {
+    display: block; }
+
+  .header {
+    border-bottom: none;
+    position: static;
+    height: 280px; }
+
+  .tablet .bg {
+    height: 280px; }
+
+  .header {
+    height: 280px; }
+    .header .tablet {
+      width: 100%;
+      background: url(../06.airbnb/img/airbnb_main.jpg);
+      background-size: cover; }
+      .header .tablet .bg {
+        width: 100%;
+        background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)); }
+      .header .tablet .airbnb-menu {
+        display: flex; }
+        .header .tablet .airbnb-menu i {
+          padding-left: 24px;
+          padding-top: 32px;
+          font-size: 34px;
+          color: white; }
+        .header .tablet .airbnb-menu .right {
+          padding-top: 45px;
+          font-size: 13px;
+          padding-left: 6px; }
+      .header .tablet .header-ttl {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 140px; }
+        .header .tablet .header-ttl h1 {
+          color: white;
+          font-size: 40px;
+          font-weight: 600; }
+
+  .main {
+    padding: 0; }
+    .main header {
+      padding-top: 32px; }
+      .main header .tablet .form {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 696px;
+        width: 100%;
+        height: auto; }
+        .main header .tablet .form .form-content input {
+          max-width: 694px;
+          width: 100%; }
+        .main header .tablet .form .form-content .form-choice {
+          display: flex;
+          max-width: 694px;
+          width: 100%; }
+          .main header .tablet .form .form-content .form-choice .second {
+            width: 58%; }
+          .main header .tablet .form .form-content .form-choice .third {
+            width: 42%; }
+        .main header .tablet .form .form-btn {
+          width: 100%; }
+    .main .main1 .reason {
+      margin: 0 auto;
+      max-width: 536px;
+      width: 100%; }
+      .main .main1 .reason p {
+        height: 84px;
+        max-width: 536px;
+        width: 100%; }
+    .main .airbnb-method .border {
+      margin-top: 80px; }
+    .main .airbnb-method h2 {
+      font-size: 40px; }
+    .main .airbnb-method .row {
+      width: 536px;
+      margin-left: auto;
+      margin-right: auto; }
+      .main .airbnb-method .row .method-article {
+        margin-bottom: 48px; }
+      .main .airbnb-method .row:last-child {
+        margin-bottom: 0; }
+    .main .dennis-opinion {
+      width: 696px;
+      height: 324px; }
+      .main .dennis-opinion i {
+        font-size: 24px; }
+      .main .dennis-opinion .opinion-ttl p {
+        font-size: 18px;
+        line-height: 1.5; }
+      .main .dennis-opinion .opinion-description {
+        font-size: 14px; }
+      .main .dennis-opinion .opinion-img img {
+        width: 324px;
+        height: 324px; }
+    .main .support {
+      margin-top: 100px; }
+      .main .support .support-ttl p {
+        font-size: 40px; }
+      .main .support .row {
+        margin: auto;
+        width: 696px;
+        padding: 0 24px 0; }
+        .main .support .row .article {
+          width: 648px;
+          flex: 0;
+          margin-left: auto;
+          margin-right: auto; }
+          .main .support .row .article p {
+            width: 648px;
+            height: 140px;
+            margin-left: auto;
+            margin-right: auto; }
+          .main .support .row .article a {
+            margin-left: auto;
+            margin-right: auto; }
+        .main .support .row ul {
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 32px;
+          width: 664px; }
+          .main .support .row ul .flex ili {
+            margin-left: auto;
+            margin-right: auto; }
+      .main .support .support-img {
+        margin-top: 80px; }
+        .main .support .support-img img {
+          width: 648px;
+          height: 411px; }
+    .main .pay-method .pay-ttl {
+      max-width: 538px; }
+    .main .pay-method .pay-article {
+      text-align: left;
+      max-width: 538px;
+      width: 100%; }
+    .main .pay-method .pay-method-ttl {
+      font-size: 40px; }
+    .main .pay-method p {
+      margin-left: auto;
+      margin-right: auto;
+      width: 536px; }
+    .main .pay-method .airbnb-flow {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 536px; }
+    .main .pay-method .col-12 {
+      margin-bottom: 48px; }
+      .main .pay-method .col-12:last-child {
+        margin-bottom: 16px; }
+    .main .tessa-opinion {
+      width: 696px;
+      height: 324px; }
+      .main .tessa-opinion .opinion-img img {
+        width: 324.8px;
+        height: 324.8px; }
+      .main .tessa-opinion i {
+        font-size: 24px; }
+      .main .tessa-opinion .opinion-ttl p {
+        font-size: 18px;
+        line-height: 1.5; }
+    .main .population {
+      margin-top: 50px; }
+      .main .population .population-ttl {
+        font-size: 40px; }
+      .main .population .row {
+        width: 696px;
+        margin: 0 auto; }
+        .main .population .row .population-sub-ttl {
+          font-size: 40px; }
+        .main .population .row .population-article {
+          font-size: 14px; }
+        .main .population .row .population-article-second {
+          width: 167.33px; }
+    .main .airbnb-introduction {
+      width: 696px; }
+      .main .airbnb-introduction .introduction-ttl {
+        font-size: 40px;
+        margin: 0 auto;
+        width: 696px; }
+      .main .airbnb-introduction .col-12 {
+        flex: 0;
+        margin-left: auto;
+        margin-right: auto; }
+        .main .airbnb-introduction .col-12 .introduction-sub-ttl {
+          margin-top: 30px; }
+        .main .airbnb-introduction .col-12 p {
+          width: 536px; }
+    .main .question .question-ttl {
+      font-size: 40px; }
+    .main .question .row {
+      margin: 0 auto;
+      width: 696px; }
+      .main .question .row .col-12 ul {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0; }
+        .main .question .row .col-12 ul a {
+          font-size: 16px; }
+          .main .question .row .col-12 ul a li {
+            width: 648px;
+            margin: 0 auto;
+            max-width: 648px; }
+    .main .details {
+      width: 696px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 80px; }
+      .main .details .details-ttl p {
+        width: 648px;
+        font-size: 24px;
+        margin-left: auto;
+        margin-right: auto; }
+      .main .details {
+        width: 648px;
+        margin-left: auto;
+        margin-right: auto; }
+        .main .details .flex-container {
+          border: 1px solid rgba(0, 0, 0, 0.1);
+          width: 205.33px; }
+          .main .details .flex-container .details-sub-ttl {
+            padding: 0 15px;
+            margin-bottom: 8px; }
+          .main .details .flex-container .details-article {
+            padding: 0 15px;
+            overflow: hidden;
+            padding-bottom: 8px; }
+          .main .details .flex-container img {
+            height: 104.81px;
+            width: 205.33px; }
+    .main .monetization {
+      margin-bottom: 50px;
+      width: 100%; }
+      .main .monetization .start-img h2 {
+        font-size: 40px; }
+    .main .footer .container {
+      padding: 48px 24px;
+      margin: 0; }
+    .main .copyright .footer-airbnb {
+      margin-left: 24px; } }
+@media screen and (max-width: 1080px) {
+  .tablet .bg {
+    height: 312px; } }
+@media screen and (max-width: 743px) {
+  .phone {
+    display: block; }
+
+  .border {
+    text-align: left;
+    margin-left: 24px !important; }
+
+  .header {
+    height: 240px; }
+    .header .tablet .bg {
+      height: 240px; }
+      .header .tablet .bg .header-ttl {
+        padding-top: 70px; }
+        .header .tablet .bg .header-ttl h1 {
+          font-size: 34px;
+          width: 94%;
+          margin-left: auto;
+          margin-right: auto; }
+
+  .main header {
+    padding-top: 0; }
+  .main .form-content .place {
+    height: 33.6px; }
+  .main .form-content .form-choice {
+    display: block !important; }
+    .main .form-content .form-choice .second {
+      height: 33.6px;
+      width: 100% !important;
+      padding: 0; }
+    .main .form-content .form-choice .third {
+      height: 33.6px;
+      width: 100% !important;
+      padding: 0; }
+  .main .form-content .form-price {
+    font-size: 32px; }
+  .main .introduction {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; }
+    .main .introduction .reason {
+      padding: 0; }
+      .main .introduction .reason p {
+        width: 100%;
+        margin-bottom: 50px; }
+  .main .airbnb-method .border {
+    margin-top: 0; }
+  .main .airbnb-method .container .row {
+    width: 100%; }
+  .main .airbnb-method .article-third {
+    margin-bottom: 20px !important; }
+  .main .dennis {
+    padding-top: 370px; }
+    .main .dennis .dennis-opinion {
+      margin-top: 50px;
+      flex-wrap: wrap-reverse;
+      width: 90%; }
+      .main .dennis .dennis-opinion .opinion-img {
+        margin: 0; }
+        .main .dennis .dennis-opinion .opinion-img img {
+          width: 100%;
+          height: 100%; }
+  .main .support {
+    padding-left: 24px; }
+    .main .support .border {
+      padding: 0; }
+    .main .support .container {
+      padding-left: 0; }
+    .main .support .support-ttl p {
+      text-align: left; }
+    .main .support .col-12 {
+      padding: 0; }
+    .main .support .row {
+      max-width: 696px;
+      width: 100%;
+      padding: 0; }
+      .main .support .row p {
+        width: auto !important;
+        height: auto !important; }
+      .main .support .row .article {
+        padding: 0;
+        flex: 100%; }
+    .main .support .support-img img {
+      padding-right: 24px;
+      width: 100%;
+      height: 100%; }
+  .main .pay-method .pay-article {
+    width: auto !important; }
+  .main .pay-method .pay-method-ttl {
+    text-align: left;
+    padding-left: 24px; }
+  .main .tessa-opinion {
+    height: auto;
+    margin-top: 100px;
+    width: 100%;
+    display: block; }
+    .main .tessa-opinion .opinion-img {
+      margin: 0; }
+      .main .tessa-opinion .opinion-img img {
+        width: 100%;
+        height: 100%;
+        padding: 0 24px; }
+    .main .tessa-opinion .center {
+      padding: 0 24px; }
+  .main .population .population-ttl {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    .main .population .population-ttl p {
+      text-align: left;
+      padding: 0 24px; }
+  .main .population .population-article .row {
+    width: 100%; }
+    .main .population .population-article .row p {
+      text-align: left; }
+    .main .population .population-article .row .population-article {
+      margin-bottom: 50px; }
+  .main .airbnb-introduction {
+    width: 100%;
+    padding: 0 24px;
+    margin-top: 50px; }
+    .main .airbnb-introduction .introduction-ttl {
+      text-align: left; }
+      .main .airbnb-introduction .introduction-ttl p {
+        width: 100%;
+        margin-bottom: 50px; }
+    .main .airbnb-introduction .container {
+      padding-right: 0; }
+      .main .airbnb-introduction .container .row {
+        display: block;
+        width: 100%; }
+        .main .airbnb-introduction .container .row .col-12 {
+          margin: 0;
+          padding: 0; }
+          .main .airbnb-introduction .container .row .col-12 p {
+            width: 100%; }
+  .main .question .question-ttl {
+    text-align: left;
+    width: 100%;
+    padding: 0 24px; }
+  .main .question .row {
+    width: 100%; }
+    .main .question .row li {
+      margin: 0 !important;
+      width: 100% !important; }
+  .main .details {
+    padding: 0 24px;
+    width: 100%; }
+    .main .details .flex-container {
+      width: 100%;
+      display: block; }
+      .main .details .flex-container {
+        margin-bottom: 16px;
+        display: flex;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0; }
+        .main .details .flex-container img {
+          width: 76px;
+          height: 76px; }
+  .main .monetization {
+    height: 375px; }
+    .main .monetization .start-img {
+      padding-top: 64px;
+      margin-left: 24px; }
+
+  .footer .phone-none {
+    display: none; }
+  .footer .container {
+    display: none; } }
+
+/*# sourceMappingURL=responsive.css.map */
